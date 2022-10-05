@@ -31,15 +31,17 @@ console.log(typeof lastName); // bug in JS
 
 //Assignments
 
-let country = "Nepal";
-let continent = "Asia";
+const COUNTRY = "Nepal";
+const CONTINENT = "Asia";
 let population = 29.14;
 
-let isIsland = false;
+const ISISLAND = false;
 let language;
 
-console.log(typeof country);
+console.log(typeof COUNTRY);
 console.log(typeof population);
-console.log(typeof continent);
-console.log(typeof isIsland);
+console.log(typeof CONTINENT);
+console.log(typeof ISISLAND);
 console.log(typeof language);
+
+language = "Nepali";
