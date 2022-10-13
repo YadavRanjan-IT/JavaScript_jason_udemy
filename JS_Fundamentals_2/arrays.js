@@ -1,3 +1,5 @@
+"use strict";
+
 let names = ["Ranjan", "Hari", "Roshan", "Aman"];
 console.log(names);
 
