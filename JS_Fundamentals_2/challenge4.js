@@ -6,7 +6,7 @@ let bills = [22, 295, 176, 440, 37, 105, 10, 1100, 86, 52];
 let tips = [];
 let totals = [];
 
-let calcTip = (bill) => {
+let calcTipAndTotal = (bill) => {
   while (tips.length !== bill.length) {
     let num =
       bill[tips.length] >= 50 && bill[tips.length] <= 300
@@ -20,8 +20,8 @@ let calcTip = (bill) => {
   return [tips, totals];
 };
 
-console.log(calcTip(bills)[0]);
-console.log(calcTip(bills)[1]);
+console.log(calcTipAndTotal(bills)[0]);
+console.log(calcTipAndTotal(bills)[1]);
 
 let calcAvg = (arr) => {
   let sum = 0;
